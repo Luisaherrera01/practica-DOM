@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .container button, .container-1 button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container-1 {
+    text-align: center;
+  }
+  
+  .container-1 img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #image-container-1,
+  #image-container-2 {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+
+  
+
+  
